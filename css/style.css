@@ -86,3 +86,62 @@ iframe {
   background-color: #ccc;
   margin: 30px auto;
 }
+
+@media (max-width: 980px) {
+  #favmanga {
+	  padding-top: 10%;
+	  padding-left: 10%;
+	  padding-right: 10%;
+	  padding-bottom: 10%;
+	  font-size: 21px;
+  }
+  #nav-bar ul li a {
+	  display: block;
+	  padding: 40px 40px;
+	  color:white;
+	  text-decoration: none;
+  }
+  #main {
+	  background-color: #18A2B3;
+	  color: black;
+  }
+  #BlackClover {
+	  font-size: 21px;
+  }
+  #ChainsawMan {
+	  font-size: 21px;
+  }
+  #Dragonball {
+	  font-size: 21px;
+  }
+  iframe {
+	height: 200px;
+	width: 500px;
+	border: 5px solid black;
+	border: 0;
+	position: auto;
+  }
+  
+}
+@media (min-width: 981px) and (max-width: 1000px) {
+  #main {
+	  background-color: white;
+      padding: 2% 20%;
+      padding-left: 10%
+  }
+  #nav-bar ul li a {
+	  display: block;
+	  padding: 40px 40px;
+	  color:white;
+	  text-decoration: none;
+  }
+  #BlackClover {
+	  font-size: 21px;
+  }
+  #ChainsawMan {
+	  font-size: 21px;
+  }
+  #Dragonball {
+	  font-size: 21px;
+  }
+}
