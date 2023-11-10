@@ -6,6 +6,16 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Lekton&family=Nanum+Myeongjo&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	 <script>
+      $(document).ready(function(){
+        $(".slider").bxSlider({
+		  mode: 'fade'
+		});
+      });
+    </script>
   </head>
   <body>
     <header>
@@ -63,6 +73,12 @@
 		    <img src="images/chalkbag.jpg" alt="image_Chalk_Bag">
 			<img src="images/shoes.jpg" alt="image_Rock_Shoes">
     </section>
+	<div class="slider">
+	  <ul class="bxslider">
+	    <li><img src="images/shoes.jpg"></li>
+		<li><img src="images/chalkbag.jpg"></li>
+	  </ul>
+    </div>
 	</div>
 	  <footer>
 	    <p>Made by Allen Domalik</p>
